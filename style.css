@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-bar {
+    background-color: white;
+    color: black;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 9vw;
+}
+
+.search {
+    position: absolute;
+    left: 20vw;
+    margin: 0vw 1vw;
+}
+
+.log-in {
+    position: absolute;
+    left: 66vw;
+    margin: 0vw 6vw;
+    text-decoration: none;
+}
+
+.sign-up {
+    position: absolute;
+    left: 81vw;
+    margin: 1vw 3vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+#badge {
+    width: 10vw;
+    height: 5vh;
+}
+
+#searchInput {
+    width: 47vw;
+    position: relative;
+    right: -5vh;
+    height: 7vh;
+    border-color: red;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    outline: none;
+}
+
+#search-icon {
+    height: 3vh;
+    width: 2vw;
+    position: relative;
+    top: 1vh;
+    right: -4vh;
+}
+
+#profile-img {
+    height: 8vh;
+    width: 5vw;
+    border-radius: 15px;
+}
+
+.sign-up-text {
+    position: relative;
+    top: -3vh;
+}
+
+.sort {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.btn-sort {
+    margin: 2vw;
+    height: 5vh;
+    width: 10vw;
+    font-weight: 200;
+    background-color: #dfdcec7a;
+    border-style: hidden;
+}
+.container{
+    display: grid;
+    grid-template-columns: 31vw 31vw 20vw;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 39px 12px;
+}
+.restaurants{
+    background-color: aqua;
+    height: 40vh;
+    width: 23vw;
+}
+main{
+    min-height: 200vh;
+}
+
+footer
+{
+    height: 10vh;
+    width: 100%;
+}
