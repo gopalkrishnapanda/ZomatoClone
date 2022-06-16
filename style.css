@@ -73,8 +73,8 @@ a {
 
 #profile-img {
     height: 8vh;
-    width: 5vw;
-    border-radius: 15px;
+    width: 4vw;
+    border-radius: 30px;
 }
 
 .sign-up-text {
@@ -178,4 +178,58 @@ div p {
     font-family: sans-serif;
     font-size: small;
     margin: 2vh 0vw;
+}
+
+@media screen and (max-width: 1300px) {
+    #profile-img {
+        height: 10vh;
+        width: 5vw;
+        border-radius: 19px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #profile-img {
+        height: 9vh;
+        width: 6vw;
+        border-radius: 19px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #profile-img {
+        height: 8vh;
+        width: 6vw;
+        border-radius: 19px;
+    }
+}
+
+@media screen and (max-width: 802px) {
+    #profile-img {
+        height: 8.5vh;
+        width: 7vw;
+        border-radius: 26px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .profile {
+        position: absolute;
+        left: 83vw;
+        margin: 1vw 1vw;
+    }
+}
+
+@media screen and (max-width: 657px) {
+
+    .profile {
+        position: absolute;
+        left: 78vw;
+        margin: 1vw 1vw;
+    }
+    #profile-img {
+        height: 7.5vh;
+        width: 7vw;
+        border-radius: 26px;
+    }
 }
