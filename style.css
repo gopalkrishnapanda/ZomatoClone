@@ -5,6 +5,9 @@
     margin: 0px;
 }
 
+body {
+    overflow-x: hidden;
+  }
 .nav-bar {
     background-color: white;
     color: black;
@@ -227,9 +230,105 @@ div p {
         left: 78vw;
         margin: 1vw 1vw;
     }
+
     #profile-img {
         height: 7.5vh;
         width: 7vw;
         border-radius: 26px;
     }
+}
+
+@media screen and (max-width: 414px) {
+    #search-icon {
+        height: 3vh;
+        width: 2vw;
+        position: relative;
+        top: 0vh;
+        right: -44vh;
+        z-index: 1;
+        display: none;
+    }
+
+    #searchInput {
+        width: 76vw;
+        position: relative;
+        right: 0vh;
+        border-color: red;
+        border-top-style: hidden;
+        border-left-style: hidden;
+        border-right-style: hidden;
+        outline: none;
+        top: 2.5vh;
+      }
+    .search {
+        position: absolute;
+        left: 8vw;
+        margin: 0vw 2vw;
+        top: 6vh;
+        width: 80vw;
+    }
+    .sort {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 10vh;
+        margin-top: 4vh;
+      }
+      .btn-sort {
+        margin: 1vw;
+        height: 6vh;
+        width: 18vw;
+        font-weight: 200;
+        background-color: #dfdcec7a;
+        border-style: hidden;
+      }
+      .logo {
+        position: absolute;
+        left: 4vw;
+        top: 2vh;
+      }
+      #badge {
+        width: 34vw;
+        height: 5vh;
+      }
+      #profile-img {
+        height: 6.5vh;
+        width: 11vw;
+        border-radius: 40px;
+      }
+      .sign-up-text {
+        position: relative;
+        top: -3vh;
+        display: none;
+      }
+      .profile {
+        position: absolute;
+        left: 86vw;
+        top: 1vh;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 31vw;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 39px 12px;
+      }
+      .restaurant-img {
+        height: 28vh;
+        width: 76vw;
+      }
+      .restaurants {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 32vw;
+      }
+      .location-header {
+        font-family: 'Montserrat', sans-serif;
+        padding: 1vh 8vw;
+        font-size: larger;
+      }
 }
